@@ -13,12 +13,4 @@
 - 修复银行翻页时发送数据包的条件，并移除相关调试日志。
 - 修复宠物图鉴序号解析逻辑，提升兼容性。
 - 修复部分 NPC 在显示阶段下发不存在图档 ID 时错误显示默认图的问题，改为不创建该 NPC。
-- 更新公开发布流程：公开发布仓库只提交 README 与当前发布产物，exe 统一命名为 game.exe，Release notes 基于上一个版本后的提交归纳生成。
-
-## 验证
-- 已通过 Godot headless `--check-only --quit` 检查。
-- 已完成 Windows release 导出，`game.exe` 为 PE32+ x86-64 GUI 程序。
-- 已确认 `game.exe`、`libcrossgate_core.windows.release.dll`、`config.ini` 位于发布目录同级。
-
-## 提交范围
-- `release/1.0.4..release/1.0.5`
+- 更新公开发布流程：发布仓库 README 改为人工维护，exe 统一命名为 game.exe，Release notes 基于上一个版本后的提交归纳生成。
