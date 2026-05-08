@@ -1,0 +1,8 @@
+.DS_Store
+game.exe
+Game.exe
+libcrossgate_core.windows.release.dll
+config.ini
+*.log
+godot_oneclick_*/
+release_notes_commits.md
