@@ -1,6 +1,10 @@
 .DS_Store
 game.exe
 Game.exe
+Crossgate for Win_*.exe
+Crossgate for Win_*.zip
+Crossgate for MacOS_*.app/
+Crossgate for MacOS_*.zip
 libcrossgate_core.windows.release.dll
 config.ini
 *.log
