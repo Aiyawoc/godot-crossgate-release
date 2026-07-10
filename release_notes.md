@@ -31,10 +31,11 @@
 ## 发布文件
 
 - macOS：Crossgate for MacOS_1.0.15.zip
-- Windows：后续发布
+- Windows：Crossgate PC Dev Win_1.0.15.zip
 
 ## 构建信息
 
 - Game commit：a5b1dd5ffb60b7935fadcc0221db3b4615ef3b49
 - Engine commit：2dbe4efa17276060a022e4028dc2eee4c7e03d38
 - macOS 发布包 SHA-256：695e7ea0480afa2769aeb0226a09ec469b6f226b4e8f464b91ee8d7d6c115b34
+- Windows GitHub Actions 发布包 SHA-256：e9fa1b71f2d22a0b43ad424c8b63927ac07849cc60747e16679007897e3d69af
