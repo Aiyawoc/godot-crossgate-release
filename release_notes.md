@@ -1,40 +1,39 @@
-# Crossgate 1.0.18 更新日志
+# Crossgate 1.0.19 更新日志
 
-亲爱的玩家，Crossgate 1.0.18 版本已发布。本次更新重点改善自动战斗、BIN 资源兼容性、世界交互和界面体验。
+亲爱的玩家，Crossgate 1.0.19 版本已发布。本次更新集中改善聊天与窗口交互、世界消息、战斗切换和资源兼容性。
 
 ## 主要更新内容
 
-### 1. 自动战斗
+### 1. 聊天与窗口体验
 
-- 完善规则战斗配置、角色规则保存和实时决策链路。
-- 自动战斗设置窗口默认关闭，可从战斗指令或系统面板入口打开。
-- 收紧未开放模式的行为，避免未就绪能力误启用。
+- 统一聊天输入焦点和快捷键路由，减少输入框切换时的误操作。
+- 修复多窗口层级、玩家资料与宠物面板连接，以及图鉴详情窗口显示问题。
+- 完善 NPC 对照表和图鉴信息展示。
 
-### 2. BIN 资源与运行稳定性
+### 2. 世界交互与消息
 
-- 发布包 BIN 资源模式调整为 `compatible`，兼容 Raw 与 CGBZ 资源树。
-- 修复 CGBZ 资源管理器在 macOS 退出阶段的崩溃问题。
-- 保持 macOS 与 Windows 使用一致的 NativeCore 资源读取合同。
+- 接入服务端留言板消息展示。
+- 修复世界交互中错误 TLKH 对象封包，并统一 `zdr` 竖线转义处理。
 
-### 3. 世界与界面体验
+### 3. 战斗与资源稳定性
 
-- 修复右键八方向转向、不可达区域就近寻路和 NPC 连续交互问题。
-- 优化角色姓名板、BZ 对话框动态尺寸、宠物状态按钮和面板交互音效。
-- 修复多窗口场景下散步宠物同步和部分显示状态问题。
+- 修复战斗退场地图请求队列溢出和分辨率切换后的场景偏移。
+- 改善标准 PNG 图档识别，提升资源加载兼容性。
 
-### 4. 登录与发布配置
+### 4. 发布配置
 
-- 发布包继续提供完整 `config.ini` 模板和签名公告文件。
-- 统一 macOS、Windows 的版本信息、NativeCore 文件布局和发布资源合同。
+- macOS、Windows 使用一致的版本信息、NativeCore 文件布局和签名公告文件。
+- Windows 发布包中的 NativeCore DLL 与 exe 同级放置，便于直接启动。
 
 ## 发布文件
 
-- macOS：`Crossgate for MacOS_1.0.18.zip`
-- Windows：`Crossgate for Win_1.0.18.zip`
+- macOS：`Crossgate for MacOS_1.0.19.zip`
+- Windows：`Crossgate for Win_1.0.19.zip`
 
 ## 构建信息
 
-- Game commit：`ac38c784fdc53fcfd9294192e0e0d722951a0e13`
+- Game release branch：`5539e268930ac6272160f452a4eef8f3ec103b2b`
+- macOS 构建基线：`a69e31e0`
 - Engine commit：`2dbe4efa17276060a022e4028dc2eee4c7e03d38`
-- macOS 发布包 SHA-256：`e4e89d24b8c9943fd4ce1f66f7c139305d4d16735564ab1690f5d16f61d1dd28`
-- Windows 公开发布包 SHA-256：`f9049a6c4d64d237e71418e0ff8beb0536dc826bd5115bbae64cbafaf509e2d6`
+- macOS 发布包 SHA-256：`c6323919cac08589d8d8fc4a1572a73dd7d24efd351d96011ae8744c3996aa23`
+- Windows 发布包 SHA-256：`3759071f3b0c247384824e0eed2d1147a72f7a7eb83d0b15f2beb4dde1973f3a`
