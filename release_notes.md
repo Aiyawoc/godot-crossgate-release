@@ -30,6 +30,10 @@
 - 持久化聊天收发记录，恢复 Esc 窗口优先级，并改善图鉴详情加载时机。
 - 修正两个种族名称及多项界面显示细节。
 
+### 5. 发布配置
+
+- 发布包仅保留局域网登录入口，默认地址为 `127.0.0.1:9030`。
+
 ## 发布文件
 
 - macOS：`Crossgate for MacOS_1.0.20.zip`
@@ -39,5 +43,5 @@
 
 - Game release branch：`c0cd2d625c86763a5c0d4c0d62bfab37839ed133`
 - Engine commit：`2dbe4efa17276060a022e4028dc2eee4c7e03d38`
-- macOS 发布包 SHA-256：`2ed9adaff365bf1b14abfadc886c9bade61bc7c9d557b3e863207a8591aeaba0`
-- Windows 发布包 SHA-256：`360a07afbd651a4ebc4a1705ae7af51a32b1df99fa2280b0e9eb0f528c30348d`
+- macOS 发布包 SHA-256：`6d18c388775f5fef5fc5a9b9fcf8f366dcdfad1d306461ab83d97e6d3927844e`
+- Windows 发布包 SHA-256：`d3e580c6ab7703322f53c8356ead00504360d3dd762495e635c3deeec695e969`
