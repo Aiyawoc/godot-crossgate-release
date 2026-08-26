@@ -41,7 +41,8 @@
 
 ## 构建信息
 
-- Game release branch：`c0cd2d625c86763a5c0d4c0d62bfab37839ed133`
+- Game release branch：`d9d5fff86bf2b355aee49bf140d4801e03f6e33b`
+- Main 最新提交：`e87baf1f`（已合并至上述 release 提交）
 - Engine commit：`2dbe4efa17276060a022e4028dc2eee4c7e03d38`
 - macOS 发布包 SHA-256：`6d18c388775f5fef5fc5a9b9fcf8f366dcdfad1d306461ab83d97e6d3927844e`
-- Windows 发布包 SHA-256：`d3e580c6ab7703322f53c8356ead00504360d3dd762495e635c3deeec695e969`
+- Windows 发布包 SHA-256：`07ca95b18ba529bada7b7f55acf74f7f15a289c651ee7ba89ef74c571237082b`
