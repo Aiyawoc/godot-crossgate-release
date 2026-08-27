@@ -1,16 +1,13 @@
 # Crossgate 1.0.20 更新日志
 
-亲爱的玩家，Crossgate 1.0.20 版本已发布。本次更新集中改善地图切换与资源加载、战斗和骑乘交互、NPC 对话流程，并完善港口场景表现。本次重发布同步了主线最新的地图资源稳定性修复。
+亲爱的玩家，Crossgate 1.0.20 版本已发布。本次 Windows 重发布回归 `main@2be7a7cf23b529fd0133cc1964ad4ef4077578ea` 稳定基线；macOS 继续沿用已验证的既有 1.0.20 包。Windows 包不包含此前 `release/1.0.20` 分支上的后续地图内存优化提交。
 
 ## 主要更新内容
 
 ### 1. 地图与资源加载
 
 - 优化首次进入和切换地图时的视觉加载，减少黑块、静态物件延迟及旧地图画面残留。
-- 优化本地资源索引、完整性校验与内存占用，提升大规模资源扫描和读取稳定性。
 - 修复静态图档延迟加载后覆盖当前资源，以及空地图名封包导致的兼容问题。
-- 优化大地图资源索引与稀疏图号访问，降低大地图切换时的等待和内存压力。
-- 加强地图尺寸与封包预检，改善慢图档加载时的角色载入和切图稳定性。
 
 ### 2. 战斗、道具与骑乘
 
@@ -43,9 +40,11 @@
 
 ## 构建信息
 
-- Windows/macOS 重发布 release 提交：`c3fa0a1c11693dd0b3757d3261711673eed8113f`
-- Main 最新提交：`2be7a7cf23b529fd0133cc1964ad4ef4077578ea`（已包含于上述 release 提交）
+- Windows 源码基线：`main@2be7a7cf23b529fd0133cc1964ad4ef4077578ea`（CI 已精确校验）
+- Windows 发布流程提交：`8d72660cb4efb7736569e78e8fb5342f6aaae2df`
+- macOS 已有发布包基线：`c3fa0a1c11693dd0b3757d3261711673eed8113f`
 - Engine commit：`2dbe4efa17276060a022e4028dc2eee4c7e03d38`
 - macOS 发布包 SHA-256：`cb6bda4c5c4619f4d434e20fa7034b3a873335405da7aa811a09d491703501ef`
-- Windows 发布包 SHA-256：`7856bd38ce8c463daee6d73865ca17a8b1a1d868f87b75d588dcb3ea13e67d58`
-- Windows CI run：`33000186975`（成功，公开包哈希与上项一致）
+- Windows 私有发布包 SHA-256：`587f7e9fcaa10acda56a18512d0ee3b1487cee3444d4a9d208266d5400bc6da4`
+- Windows 公开发布包 SHA-256：`81844f4e12b66525d847e40ef87f10f94db55ccffdb257503094b3225d4fec2b`
+- Windows CI run：`33034276821`（成功，已校验 `game_commit=2be7a7cf23b529fd0133cc1964ad4ef4077578ea`）
